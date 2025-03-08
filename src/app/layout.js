@@ -8,7 +8,7 @@ import './styles.css';
 
 export default function DashboardLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <body>
                 <main>
                     {children}
