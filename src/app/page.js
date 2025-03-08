@@ -19,13 +19,13 @@ export default function Page() {
                             <div className="line-item"></div>
                             <p>I am learning web development and passionate about creating
                                 interactive and user-friendly websites. I enjoy exploring new technologies and improving
-                                my skills
-                                in front-end development.
+                                my skills in front-end development.
                             </p>
                         </div>
 
                         <div className="my-skills">
                             <h3>My Skills</h3>
+                            <div className="line-item"></div>
                             <div className="overflow-auto">
                                 <ul className="skills-list">
                                     <li className="skill-item">

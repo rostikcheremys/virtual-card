@@ -34,6 +34,14 @@
     overflow: hidden;
 }
 
+.profile p {
+    text-align: justify;
+}
+
+.about-me h1 {
+    margin-bottom: 10px;
+}
+
 .line-item {
     width: 100%;
     height: 8px;
@@ -42,13 +50,9 @@
     margin-bottom: 10px;
 }
 
-.card-body:hover .line-item {
+.about-me:hover .line-item, .my-skills:hover .line-item{
     background-color: #da202f;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.profile p {
-    text-align: justify;
 }
 
 .my-skills {
@@ -58,11 +62,12 @@
 
 .my-skills h3 {
     color: white;
+    margin-bottom: 10px;
 }
 
 .overflow-auto {
     overflow-x: auto;
-    scrollbar-color: #da202f #1d1e20;
+    scrollbar-color: #1d1e20 #1d1e20;
     padding-bottom: 10px;
 }
 
@@ -75,11 +80,16 @@
 }
 
 .skill-item {
-    margin-right: 20px;
+    margin: 10px 25px 10px 0;
     text-align: center;
     color: white;
     flex-shrink: 0;
     max-width: 120px;
+}
+
+.skill-item:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
 }
 
 .skill-item p {
