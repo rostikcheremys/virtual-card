@@ -5,7 +5,6 @@ import AboutMe from "@/app/components/AboutMe";
 import MySkills from "@/app/components/MySkills";
 import Contact from "@/app/components/Contact"
 
-
 export default function Page() {
     return (
         <div className="container">
