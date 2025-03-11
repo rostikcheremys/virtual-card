@@ -52,14 +52,6 @@ export default function MySkills() {
                         <p>PostgreSQL</p>
                     </li>
                     <li className="skill-item">
-                        <SiPhp size={60} color="#4F5D95"/>
-                        <p>PHP</p>
-                    </li>
-                    <li className="skill-item">
-                        <SiC size={60} color="#68217A"/>
-                        <p>C#</p>
-                    </li>
-                    <li className="skill-item">
                         <SiFigma size={60} color="#F24E1E"/>
                         <p>Figma</p>
                     </li>
