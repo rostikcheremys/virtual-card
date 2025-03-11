@@ -1,7 +1,7 @@
 'use client';
 
 import {FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaJs, FaReact} from "react-icons/fa";
-import {SiC, SiFigma, SiGit, SiNextdotjs, SiPhp, SiPostgresql, SiTailwindcss} from "react-icons/si";
+import {SiFigma, SiGit, SiNextdotjs, SiPostgresql, SiTailwindcss} from "react-icons/si";
 
 export default function MySkills() {
     return (
